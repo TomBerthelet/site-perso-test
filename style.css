@@ -1,1 +1,83 @@
+/* Reset minimaliste */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #000; /* noir */
+  color: #fff; /* texte blanc */
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Playfair Display', serif;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4af37; /* doré */
+}
+
+main {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: #d4af37;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #333;
+  color: #888;
+}
+
+/* Bitcoin 3D container */
+#bitcoin-container {
+  width: 300px;
+  height: 300px;
+  margin: 50px auto;
+}
