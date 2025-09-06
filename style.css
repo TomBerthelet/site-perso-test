@@ -77,7 +77,8 @@ footer {
 
 /* Bitcoin 3D container */
 #bitcoin-container {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: 50px auto;
+  border: 1px solid red;
 }
